@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #0d0c09;
+    width: 100%;
+    flex: auto;
+    text-align: justify;
+    color: #bbb;
+}
+
+.main_menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main_menu a {
+    color: #0d0c09;
+    background-color: #bbb;
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    margin: 0 10px; 
+    text-decoration: none;
+}
+
+
+.main_menu a{
+    color: #0d0c09;
+    background-color: #bbb;
+    padding: 0.2%;
+    border-radius: 5%;
+    margin: 3%;
+
+}
+
+a{
+    color: #0d0c09;
+    background-color: #bbb;
+    border-radius: 5%;
+    padding: 2px;
+}
+
+.input{
+    background-color: #0d0c09;
+}
+
+
+input[type="text"] {
+
+    background-color : #999;
+    margin: 4px;
+  
+}
+
+input[type="number"] {
+
+    background-color : #999;
+    margin: 4px;
+  
+}
+
+.array {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #ddd;
+    color: #0d0c09;
+}
+
